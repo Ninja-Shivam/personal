@@ -6,7 +6,7 @@
 int main() {
     char buffer[1024];
 
-    printf("📝 Enter your message: ");
+    printf(" Enter your message: ");
     fgets(buffer, sizeof(buffer), stdin);
     buffer[strcspn(buffer, "\n")] = 0;
 
