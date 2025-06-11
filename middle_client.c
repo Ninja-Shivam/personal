@@ -21,7 +21,7 @@ int main() {
 
     bind(mid_sock, (struct sockaddr *)&mid_addr, sizeof(mid_addr));
     listen(mid_sock, 5);
-    printf("🌉 Middle Client Listening on port %d...\n", MIDDLE_PORT);
+    printf(" Middle Client Listening on port %d...\n", MIDDLE_PORT);
 
     while (1) {
         client_sock = accept(mid_sock, (struct sockaddr *)&client_addr, &addr_len);
