@@ -14,6 +14,6 @@ void call_input_handler(const char *buffer) {
 
 #else
 void call_input_handler(const char *buffer) {
-    printf("🖨️ Local Output: %s\n", buffer);
+    printf(" Local Output: %s\n", buffer);
 }
 #endif
