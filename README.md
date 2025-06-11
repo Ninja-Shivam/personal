@@ -23,6 +23,3 @@ In separate terminals:
 2. `./middle_client`
 3. `./app_net` (or `./app` for local-only)
 
-## Author
-
-Generated with ❤️ by ChatGPT
