@@ -33,6 +33,6 @@ void client_app_send(const char *buffer) {
     memset(response, 0, BUFFER_SIZE);
     read(sock, response, BUFFER_SIZE);
 
-    printf("✅ Server Response: %s\n", response);
+    printf(" Server Response: %s\n", response);
     close(sock);
 }
